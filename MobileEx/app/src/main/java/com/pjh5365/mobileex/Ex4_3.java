@@ -1,6 +1,5 @@
 package com.pjh5365.mobileex;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -9,21 +8,18 @@ import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class Ex4_3 extends AppCompatActivity {
     TextView text1, text2;
-    Switch chkAgree;
+    CheckBox chkAgree;
     RadioGroup rGroup1;
     RadioButton rdoDog, rdoCat, rdoRabbit;
     Button btnOK;
     ImageView imgPet;
-    Button btnFinish;
-    Button btnReset;
 
     @Override
     public void onCreate(Bundle savedInstanState) {
@@ -32,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         setTitle("애완동물 사진 보기");
 
         text1 = (TextView) findViewById(R.id.Text1);
-        chkAgree = (Switch) findViewById(R.id.ChkAgree);
+        chkAgree = (CheckBox) findViewById(R.id.ChkAgree);
 
         text2 = (TextView) findViewById(R.id.Text2);
         rGroup1 = (RadioGroup) findViewById(R.id.Rgroup1);
@@ -41,8 +37,6 @@ public class MainActivity extends AppCompatActivity {
         rdoRabbit = (RadioButton) findViewById(R.id.RdoRabbit);
 
         btnOK = (Button) findViewById(R.id.BtnOK);
-        btnFinish = (Button) findViewById(R.id.BtnFinish);
-        btnReset = (Button) findViewById(R.id.BtnReset);
         imgPet = (ImageView) findViewById(R.id.ImgPet);
 
         chkAgree.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
@@ -53,16 +47,12 @@ public class MainActivity extends AppCompatActivity {
                     rGroup1.setVisibility(View.VISIBLE);
                     btnOK.setVisibility(View.VISIBLE);
                     imgPet.setVisibility(View.VISIBLE);
-                    btnFinish.setVisibility(View.VISIBLE);
-                    btnReset.setVisibility(View.VISIBLE);
                 }
                 else {
                     text2.setVisibility(View.INVISIBLE);
                     rGroup1.setVisibility(View.INVISIBLE);
                     btnOK.setVisibility(View.INVISIBLE);
                     imgPet.setVisibility(View.INVISIBLE);
-                    btnFinish.setVisibility(View.INVISIBLE);
-                    btnReset.setVisibility(View.INVISIBLE);
                 }
             }
         });
@@ -83,20 +73,6 @@ public class MainActivity extends AppCompatActivity {
                     default:
                         Toast.makeText(getApplicationContext(), "동물 먼저 선택하세요", Toast.LENGTH_SHORT).show();
                 }
-            }
-        });
-
-        btnFinish.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-            }
-        });
-
-        btnReset.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
             }
         });
     }
