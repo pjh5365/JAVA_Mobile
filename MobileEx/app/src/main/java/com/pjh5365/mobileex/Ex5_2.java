@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class Ex5_2 extends AppCompatActivity {
 
     EditText edit1, edit2;
     Button btnAdd, btnSub, btnMul, btnDiv;
