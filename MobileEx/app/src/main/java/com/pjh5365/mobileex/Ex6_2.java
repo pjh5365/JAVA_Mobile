@@ -1,6 +1,5 @@
 package com.pjh5365.mobileex;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebSettings;
@@ -12,7 +11,7 @@ import android.widget.EditText;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
-public class MainActivity extends AppCompatActivity {
+public class Ex6_2 extends AppCompatActivity {
     EditText edtUrl;
     Button btnGo, btnBack;
     WebView web;
@@ -22,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ActivityCompat.requestPermissions(MainActivity.this, new String[]{"android.permission.INTERNET"}, 0);
+        ActivityCompat.requestPermissions(Ex6_2.this, new String[]{"android.permission.INTERNET"}, 0);
 
         edtUrl = (EditText) findViewById(R.id.edtUrl);
         btnGo = (Button) findViewById(R.id.btnGo);
