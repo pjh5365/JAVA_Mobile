@@ -7,6 +7,7 @@
         <entry key="app/src/main/res/layout/Ex4_1.xml" value="0.1" />
         <entry key="app/src/main/res/layout/Ex4_2.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/dialog1.xml" value="0.1" />
         <entry key="app/src/main/res/layout/ex4_1.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/ex4_2.xml" value="0.1" />
         <entry key="app/src/main/res/layout/ex4_3.xml" value="0.1" />
@@ -15,6 +16,17 @@
         <entry key="app/src/main/res/layout/ex5_2.xml" value="0.1" />
         <entry key="app/src/main/res/layout/ex5_3.xml" value="0.1" />
         <entry key="app/src/main/res/layout/ex6_1.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/ex6_2.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/ex7_#.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/ex7_1.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/ex7_2.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/toast1.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/ex7_1_menu1.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/ex7_2_menu1.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/ex7_2_menu2.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.1859375" />
+        <entry key="app/src/main/res/menu/menu1.xml" value="0.1859375" />
+        <entry key="app/src/main/res/menu/menu2.xml" value="0.1" />
       </map>
     </option>
   </component>

@@ -11,7 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
-public class MainActivity extends AppCompatActivity {
+public class Ex7_2 extends AppCompatActivity {
 
     LinearLayout baseLayout;
     Button button1, button2;
