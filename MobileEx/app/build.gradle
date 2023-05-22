@@ -8,7 +8,7 @@ android {
     defaultConfig {
         applicationId "com.pjh5365.mobileex"
         minSdk 29
-        targetSdk 33
+        targetSdk 29
         versionCode 1
         versionName "1.0"
 

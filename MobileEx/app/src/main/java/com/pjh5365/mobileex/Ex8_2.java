@@ -13,7 +13,7 @@ import androidx.core.app.ActivityCompat;
 
 import java.io.File;
 
-public class MainActivity extends AppCompatActivity {
+public class Ex8_2 extends AppCompatActivity {
 
     Button btnPrev, btnNext;
     myPictureView myPicture;
